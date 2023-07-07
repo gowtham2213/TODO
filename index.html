@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do App</title>
+  <style>
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h1>To-Do App</h1>
+  <input type="text" id="taskInput" placeholder="Enter a task">
+  <button onclick="addTask()">Add Task</button>
+  <p id="errorMsg" class="error"></p>
+
+  <ul id="taskList">
+    <!-- Tasks will be dynamically added here -->
+  </ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
